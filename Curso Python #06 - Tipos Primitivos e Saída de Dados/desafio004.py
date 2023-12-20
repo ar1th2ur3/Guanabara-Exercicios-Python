@@ -1,0 +1,18 @@
+def print_separdor():
+    print( "*" * 45)
+
+print_separdor()
+print_separdor()
+print("Olá, bem-vindo(a). Vamos lá!")
+print_separdor()
+print_separdor()
+x = input("Digite qualquer coisa, e iremos identificar que tipo é o que você digitou.")
+print_separdor()
+print("O tipo primitivo desse valor é:", type(x))
+print_separdor()
+print("O que você digitou tem letra maiscula?", x.isupper())
+print_separdor()
+print("O que você digitou tem letra ou número?", x.isalnum())
+print_separdor()
+print("O que você digitou tem letra minuscula?", x.islower())
+print_separdor()

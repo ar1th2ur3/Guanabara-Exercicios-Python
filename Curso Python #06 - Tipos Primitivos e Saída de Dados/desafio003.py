@@ -1,0 +1,11 @@
+n1 = int(input("Digite o primeiro numero"))
+n2 = int(input("Digite o segundo numero"))
+
+print("Os números escolhidos foram {} e {}".format(n1, n2))
+print("Agora iremos somar os números {} e {}, tudo bem?".format(n1,n2))
+print("Bom, vamos lá...")
+print("Bom, vamos lá...")
+print("Bom, vamos lá...")
+print("*********************************************")
+print("A soma dos dois, é = ", n1+n2)
+print("*********************************************")
